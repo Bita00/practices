@@ -1,0 +1,16 @@
+div {
+    width: 320px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#text {
+    color: rgba(74, 49, 49, 0.714)
+}
+
+ul {
+   list-style-type: square; 
+}
+
+a {
+    background-color: chocolate;
+}
