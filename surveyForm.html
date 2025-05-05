@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>surver form</title>
+    <link rel="stylesheet" href="styles\surveyForm.css">
+</head>
+<body>
+    <form class="form">
+        <div class="personal">
+            <div id="name">
+                <label for="name">Name</label>
+                   
+                <input type="text" id="name" required placeholder="Enter your name">
+            </div>
+
+            <div id="email">
+                <label for="email">Email</label>
+                
+                <input type="email" id="email"  required placeholder="Enter your email">
+            </div>
+
+            <div id="age">
+                <label for="age">Age</label>
+                
+                <input type="text" id="age" required placeholder="Enter your age">
+            </div>
+
+            <div id="role">
+                <label for="role">Which option best describes you?</label>
+                
+                <select name="role" id="role">
+                    <option value="student">student</option>
+                    <option value="intern">intern</option>
+                    <option value="professional">professional</option>
+                    <option value="other">other</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="recommendation">
+            <label>Would you recommend geeks for geeks to a friend?</label>
+            
+            <label for="recommend_1">
+                <input type="radio" id="recommend_1" name="recommend">Yes</label>
+            
+            <label for="recommend_2">
+                <input type="radio" id="recommend_2" name="recommend">No</label>
+            
+            <label for="recommend_3">
+                <input type="radio" id="recommend_3" name="recommend">Maybe</label>
+            
+        </div>
+
+        <div class="skills">
+            <label>Languages and frameworks known
+                <small>(Check all that apply)</small>
+            </label>
+            
+            <label for="inp_1">
+                <input type="checkbox" name="inp">C
+            </label>
+            
+            <label for="inp_2">
+                <input type="checkbox" name="inp">C++
+            </label>
+            
+            <label for="inp_3">
+                <input type="checkbox" name="inp">C#
+            </label>
+            
+            <label for="inp_4">
+                <input type="checkbox" name="inp">Java
+            </label>
+            
+            <label for="inp_5">
+                <input type="checkbox" name="inp">Python
+            </label>
+            
+            <label for="inp_6">
+                <input type="checkbox" name="inp">JavaScript
+            </label>
+            
+            <label for="inp_7">
+                <input type="checkbox" name="inp">React
+            </label>
+        </div>
+
+        <div class="comment">
+            <label for="comment">Any comments or suggesdtions</label>
+            
+            <textarea name="comment" id="comment" placeholder="Enter your comment here"></textarea>
+        </div>
+        
+        <button type="submit" value="submit">submit</button>
+    </form>
+
+</body>
+</html>
